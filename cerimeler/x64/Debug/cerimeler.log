@@ -1,0 +1,29 @@
+﻿  cerimeler.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(292,17): error C2259: 'Penalty': cannot instantiate abstract class
+C:\Ismayil\PROJECTS\StepIT\OOP - (C++)\Lesson 23 - STL\cerimeler\mainClasses.h(98,7): message : see declaration of 'Penalty'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(292,17): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(292,17): message : 'const std::string *Penalty::get__name(void) const': is abstract
+C:\Ismayil\PROJECTS\StepIT\OOP - (C++)\Lesson 23 - STL\cerimeler\mainClasses.h(121,27): message : see declaration of 'Penalty::get__name'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(292,17): message : 'const double *Penalty::get__price(void) const': is abstract
+C:\Ismayil\PROJECTS\StepIT\OOP - (C++)\Lesson 23 - STL\cerimeler\mainClasses.h(133,27): message : see declaration of 'Penalty::get__price'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(51,1): message : see reference to class template instantiation 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' being compiled
+          with
+          [
+              _Ty=Penalty,
+              _Alloc=std::allocator<Penalty>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list(50,1): message : while compiling class template member function 'std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0> &std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>::operator ++(void) noexcept'
+          with
+          [
+              _Ty=Penalty
+          ]
+C:\Ismayil\PROJECTS\StepIT\OOP - (C++)\Lesson 23 - STL\cerimeler\database.h(33,37): message : see reference to function template instantiation 'std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0> &std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>::operator ++(void) noexcept' being compiled
+          with
+          [
+              _Ty=Penalty
+          ]
+C:\Ismayil\PROJECTS\StepIT\OOP - (C++)\Lesson 23 - STL\cerimeler\database.h(34,1): message : see reference to class template instantiation 'std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>' being compiled
+          with
+          [
+              _Ty=Penalty
+          ]
